@@ -19,8 +19,11 @@ def resta(a, b):
 def multiplicacion(a, b):
     """
     Returns a * b
-
-    >>> multiplicacion(5, 7)
+    >>> x = 5
+    >>> if multiplicacion(x, 7) == 35:
+    ...     35
+    ... else:
+    ...     print("Failed")
     35
     """
     return a * b
@@ -30,7 +33,7 @@ def division(a, b):
     Returns a / b
 
     >>> division(10, 5)
-    2
+    2.0
     """
     return a / b
 
